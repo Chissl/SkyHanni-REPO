@@ -1,5 +1,5 @@
 {
-  "sourceLabel": "f183083",
+  "sourceLabel": "c9f8b8c",
   "regexes": {
     "abiphone.snake.name": "Snake",
     "actionbar.defense": ".*§a(?\u003cdefense\u003e[\\d,]+)§a❈.*",
@@ -127,7 +127,7 @@
     "data.chat.player.privateislandrank": "(?\u003cprefix\u003e.*?)(?\u003cprivateIslandRank\u003e§.\\[(?!MVP(?:§.\\++)?§.]|VIP\\+*|YOU§.TUBE|ADMIN|MOD|GM)[^]]+\\]) (?\u003csuffix\u003e.*)",
     "data.chat.player.privatemessage": "^(?!From stash: )(?\u003cdirection\u003eFrom|To) (?\u003cauthor\u003e[^:]*): (?\u003cmessage\u003e.*)",
     "data.collection.api.counter": ".* §e(?\u003camount\u003e.*)§6/.*",
-    "data.collection.api.singlecounter": "§7Total collected: §e(?\u003camount\u003e.*)",
+    "data.collection.api.singlecounter": "§7Total [c|C]ollected: §e(?\u003camount\u003e.*)",
     "data.collection.api.tierzero": "§7Progress to .* I: .*",
     "data.entity.warping": "§7(?:Warping|Warping you to your SkyBlock island|Warping using transfer token|Finding player|Sending a visit request)\\.\\.\\.",
     "data.friends.add": "§aYou are now friends with (?\u003cname\u003e.*)",
@@ -463,6 +463,7 @@
     "features.gui.customscoreboard.scoreboard.misc.queued": "Queued:.*",
     "features.gui.customscoreboard.scoreboard.misc.queueposition": "Position: (?:§.)*#\\d+ (?:§.)*Since: .*",
     "features.gui.customscoreboard.scoreboard.misc.queuetier": "Tier: §e.*",
+    "features.gui.customscoreboard.scoreboard.misc.queuewaitingforleader": "§aWaiting on party leader!",
     "features.gui.customscoreboard.scoreboard.misc.redstone": "\\s*(?:§.)*⚡ §cRedstone: (?:§.)*\\d+%",
     "features.gui.customscoreboard.scoreboard.misc.thirdobjectiveline": "§eProtect Elle §7\\(§.\\d+%§7\\)|\\s*§.\\(§.\\w+§.\\/§.\\w+§.\\)|§f Mages.*|§f Barbarians.*|§edefeat Kuudra|§eand stun him|§.Fish \\d .*[fF]ish §.[✖✔]",
     "features.gui.customscoreboard.scoreboard.misc.visiting": "\\s*§a✌ §7\\(§.\\d+(?:§.)?/\\d+(?:§.)?\\)",
